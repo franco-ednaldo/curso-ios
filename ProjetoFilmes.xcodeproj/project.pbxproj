@@ -17,6 +17,7 @@
 		8911805A2D124734000260CE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891180592D124734000260CE /* LoginViewController.swift */; };
 		899AC2BD2D1367B800AF2ABB /* FilmesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899AC2BC2D1367AD00AF2ABB /* FilmesTableViewCell.swift */; };
 		899AC2C12D136E4100AF2ABB /* FilmesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899AC2C02D136E3E00AF2ABB /* FilmesTableViewController.swift */; };
+		89B3B7FA2D16FB2C006B633C /* CadastroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B3B7F92D16FB2C006B633C /* CadastroViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		891180592D124734000260CE /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		899AC2BC2D1367AD00AF2ABB /* FilmesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmesTableViewCell.swift; sourceTree = "<group>"; };
 		899AC2C02D136E3E00AF2ABB /* FilmesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmesTableViewController.swift; sourceTree = "<group>"; };
+		89B3B7F92D16FB2C006B633C /* CadastroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 			children = (
 				899AC2C02D136E3E00AF2ABB /* FilmesTableViewController.swift */,
 				891180592D124734000260CE /* LoginViewController.swift */,
+				89B3B7F92D16FB2C006B633C /* CadastroViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 				899AC2BD2D1367B800AF2ABB /* FilmesTableViewCell.swift in Sources */,
 				8911805A2D124734000260CE /* LoginViewController.swift in Sources */,
 				891180202D123F03000260CE /* SceneDelegate.swift in Sources */,
+				89B3B7FA2D16FB2C006B633C /* CadastroViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

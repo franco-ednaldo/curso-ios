@@ -20,8 +20,12 @@ class FilmesTableViewController: UITableViewController {
         
         configureTableView()
         fetchMoviesData()
-        createMovies()
-        
+        //createMovies()
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        fetchMoviesData()
     }
     
     private func configureTableView() {
@@ -75,5 +79,22 @@ class FilmesTableViewController: UITableViewController {
         
         return cell
     }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let filme = filmes[indexPath.row]
+        
+        performSegue(withIdentifier: "EditarCadastroSegue", sender: filme)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "EditarCadastroSegue", let cadastroVC = segue.destination as? CadastroViewController, let filmeSelecionado = sender as? Filmes {
+            cadastroVC.filmeEdit = filmeSelecionado
+        }
+    }
+    
+    
+    @IBAction func registerNewMovie(_ sender: UIBarButtonItem) {
+    }
+    
     
 }
