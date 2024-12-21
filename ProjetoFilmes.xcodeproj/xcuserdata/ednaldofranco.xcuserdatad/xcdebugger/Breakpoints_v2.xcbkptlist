@@ -14,9 +14,9 @@
             filePath = "ProjetoFilmes/Controller/CadastroViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "106"
-            endingLineNumber = "106"
-            landmarkName = "buildMovie(_:)"
+            startingLineNumber = "111"
+            endingLineNumber = "111"
+            landmarkName = "setupEditar()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

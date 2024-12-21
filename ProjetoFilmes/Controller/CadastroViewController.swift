@@ -51,6 +51,11 @@ class CadastroViewController: UIViewController, UIImagePickerControllerDelegate,
     
     
     @IBAction func cameraButton(_ sender: UIButton) {
+        let imagePicker = UIImagePickerController()
+        imagePicker.delegate = self
+        imagePicker.sourceType = .camera
+        
+        present(imagePicker, animated: true, completion: nil)
     }
     
     
@@ -101,7 +106,7 @@ class CadastroViewController: UIViewController, UIImagePickerControllerDelegate,
             filme.ano = year
         }
         
-        filme.capa = movieImageView.image?.cgImage
+        filme.capa = movieImageView?.accessibilityIdentifier
         
         print(<#T##items: Any...##Any#>)
     }
