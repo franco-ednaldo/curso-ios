@@ -41,9 +41,9 @@ class LoginViewController: UIViewController {
             let usuarioExists = try context.fetch(fetchRequest)
             if usuarioExists.isEmpty {
                 let usuarioDefault = Login(context: context)
-                usuarioDefault.id = 1
-                usuarioDefault.usuario = "admin"
-                usuarioDefault.senha = "admin"
+                usuarioDefault.id = 2
+                usuarioDefault.usuario = "aluno"
+                usuarioDefault.senha = "1234"
                 
                 try context.save()
                 
