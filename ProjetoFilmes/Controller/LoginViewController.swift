@@ -23,18 +23,7 @@ class LoginViewController: UIViewController {
         guard let user = userTextField.text, let password = passwordTextField.text else { return }
         
         if validateLogin(user: user, password: password) {
-            // 1. Carrega o Storyboard
-            let storyboard = UIStoryboard(name: "Main", bundle: nil)
-            
-            // 2. Instancia a próxima tela
-            if let filmesViewController = storyboard.instantiateViewController(withIdentifier: "FilmesViewController") as? FilmesViewController {
-                
-                // 3. Configura a apresentação para Full Screen
-                filmesViewController.modalPresentationStyle = .fullScreen
-                
-                // 4. Apresenta a tela
-                self.present(filmesViewController, animated: true, completion: nil)
-            }
+            performSegue(withIdentifier: "FilmesView", sender: nil)
         } else {
             AlertHelper.showAlert(title: "Erro", message: "Usuário e senha incorretos", on: self)
         }

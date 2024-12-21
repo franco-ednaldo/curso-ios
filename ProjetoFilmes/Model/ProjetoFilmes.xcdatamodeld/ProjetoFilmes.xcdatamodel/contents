@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="23507" systemVersion="24B91" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Filmes" representedClassName="Filmes" syncable="YES" codeGenerationType="class">
+        <attribute name="ano" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="capa" optional="YES" attributeType="String"/>
+        <attribute name="diretor" optional="YES" attributeType="String"/>
+        <attribute name="duracao" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="genero" optional="YES" attributeType="String"/>
+        <attribute name="idFilme" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="origiem" optional="YES" attributeType="String"/>
+        <attribute name="titulo" optional="YES" attributeType="String"/>
+        <attribute name="trailer" optional="YES" attributeType="String"/>
+    </entity>
     <entity name="Login" representedClassName="Login" syncable="YES" codeGenerationType="class">
         <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
         <attribute name="senha" optional="YES" attributeType="String"/>

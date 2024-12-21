@@ -15,7 +15,8 @@
 		891180252D123F03000260CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 891180182D123F03000260CE /* Main.storyboard */; };
 		891180562D124296000260CE /* AlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891180552D124296000260CE /* AlertHelper.swift */; };
 		8911805A2D124734000260CE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891180592D124734000260CE /* LoginViewController.swift */; };
-		8911805C2D12604A000260CE /* FilmesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8911805B2D12604A000260CE /* FilmesViewController.swift */; };
+		899AC2BD2D1367B800AF2ABB /* FilmesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899AC2BC2D1367AD00AF2ABB /* FilmesTableViewCell.swift */; };
+		899AC2C12D136E4100AF2ABB /* FilmesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899AC2C02D136E3E00AF2ABB /* FilmesTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +30,8 @@
 		8911801D2D123F03000260CE /* ProjetoFilmes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ProjetoFilmes.xcdatamodel; sourceTree = "<group>"; };
 		891180552D124296000260CE /* AlertHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertHelper.swift; sourceTree = "<group>"; };
 		891180592D124734000260CE /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		8911805B2D12604A000260CE /* FilmesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmesViewController.swift; sourceTree = "<group>"; };
+		899AC2BC2D1367AD00AF2ABB /* FilmesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmesTableViewCell.swift; sourceTree = "<group>"; };
+		899AC2C02D136E3E00AF2ABB /* FilmesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmesTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +78,8 @@
 		891180262D123F06000260CE /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				899AC2C02D136E3E00AF2ABB /* FilmesTableViewController.swift */,
 				891180592D124734000260CE /* LoginViewController.swift */,
-				8911805B2D12604A000260CE /* FilmesViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -85,6 +87,7 @@
 		891180272D123F0F000260CE /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				899AC2BC2D1367AD00AF2ABB /* FilmesTableViewCell.swift */,
 				891180192D123F03000260CE /* ProjetoFilmes.xcdatamodeld */,
 			);
 			path = Model;
@@ -183,9 +186,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				891180562D124296000260CE /* AlertHelper.swift in Sources */,
+				899AC2C12D136E4100AF2ABB /* FilmesTableViewController.swift in Sources */,
 				8911801E2D123F03000260CE /* AppDelegate.swift in Sources */,
-				8911805C2D12604A000260CE /* FilmesViewController.swift in Sources */,
 				8911801F2D123F03000260CE /* ProjetoFilmes.xcdatamodeld in Sources */,
+				899AC2BD2D1367B800AF2ABB /* FilmesTableViewCell.swift in Sources */,
 				8911805A2D124734000260CE /* LoginViewController.swift in Sources */,
 				891180202D123F03000260CE /* SceneDelegate.swift in Sources */,
 			);
