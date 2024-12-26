@@ -108,7 +108,6 @@ class CadastroViewController: UIViewController, UIImagePickerControllerDelegate,
         
         filme.capa = movieImageView?.accessibilityIdentifier
         
-        print(<#T##items: Any...##Any#>)
     }
     
     private func setupEditar() {

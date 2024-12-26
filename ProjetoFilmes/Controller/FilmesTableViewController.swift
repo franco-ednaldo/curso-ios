@@ -20,7 +20,7 @@ class FilmesTableViewController: UITableViewController {
         
         configureTableView()
         fetchMoviesData()
-        //createMovies()
+        createMovies()
     }
     
     override func viewWillAppear(_ animated: Bool) {
